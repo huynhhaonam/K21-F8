@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Đăng kí CLB</h1>
+<p>
+    Chào mừng bạn đến với <strong>Hệ thống đăng ký Câu lạc bộ</strong> của trường.
+    Chúng tôi có <span>4 câu lạc bộ</span> đa dạng dành cho sinh viên,
+    phù hợp với <em>đam mê và định hướng phát triển bản thân</em> của mỗi người
+    
+</p>
+<form action="" id="club-form">
+    <div>
+        <label for="">Họ và Tên</label>
+        <input type="text"
+        name="fullname"
+        id="fullname"
+        placeholder="Vui lòng nhập họ và tên"
+        class="required-field">
+    </div>
+    <div>
+        <label for="email">Email</label>
+        <input type="email"
+        name="Email"
+        id="Email"
+        placeholder="vui lòng nhập email của bạn"
+        class="required-field">
+    </div>
+    <div>
+        <label for="">Số điện thoại</label>
+        <input type="number" name="phone" id="phone" class="required-field">
+    </div>
+    <div>
+        <label for="gender">Giới tính</label>
+       <label><input type="radio" name="gender" id="gender">Nam</label>
+        <label><input type="radio" name="gender" id="gender">Nữ</label>
+    </div>
+    <div>
+        <label for=""> Chọn CLB </label>
+        <select name="clb" id="clb">
+            <option value="">Chọn CLB</option>
+            <option value="clblaptrinh">CLB Lâp trình</option>
+            <option value="clbtienganh">CLB Tiếng Anh</option>
+            <option value="clbtruyenthong">CLB Truyền Thông</option>
+            <option value="clbamnhac">CLB Âm Nhạc</option>
+        </select>
+    </div>
+    <div>
+        <label for="">Sở thích</label>
+        <input type="checkbox" name="" id="">Đọc sách
+        <input type="checkbox" name="" id="">Chơi thể thao
+        <input type="checkbox" name="" id="">Du lịch
+        <input type="checkbox" name="" id="">Công nghệ
+    </div>
+    <div>
+        <label for="">Giới thiệu bản thân</label>
+        <textarea name="introduce" id="introduce" rows="5" cols="50"></textarea>
+        <input type="checkbox" name="" id="">Tôi cam kết các thông tin trên là chính xác.
+    </div>
+    <button>Submit</button>
+    <button type="reset">Reset</button>
+</form>
+    
+</body>
+
+</html>
